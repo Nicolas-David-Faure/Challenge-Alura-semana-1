@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Roboto+Slab:wght@200&display=swap');
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    background: rgb(0,0,0);
+background: linear-gradient(0deg, rgba(0,0,0,1) 11%, rgba(8,7,70,1) 75%);
+
+}
+.main{
+     
+width: 100%;
+height: 100vh;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.main__cont{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+    width: 600px;
+    height: 500px;
+    border-radius: 10px;
+    background-image: linear-gradient(180deg, #00000007 0%, #0000008c 100%), url(./oyemike-princewill-Ns0gH5EeYs4-unsplash.jpg);
+    background-size:cover;
+   
+}
+.container_h1{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-bottom:1px solid black ;
+    width: 100%;
+    max-height: 4rem;
+    
+
+}
+.main_cont_ingrese-su-texto{
+    font-size: 1rem;
+    color: antiquewhite;
+    height: 1rem;
+    margin: 0 0 10px 10px;
+}
+
+.main__h1{
+    text-align: center;
+    color: rgb(241, 255, 236);
+    font-size: 2rem;
+    
+    text-align: center;
+}
+.alura_span{
+    color: rgb(224, 165, 0);
+}
+                                           /*Container main*/
+.main_cont_flex{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+}
+
+
+.input_text{
+    height: 2rem;
+    padding-bottom:6em;
+    width: 20rem;
+    border-radius: 5px;
+    border-color: rgba(51, 21, 21, 0.603);
+    outline: none;
+    background-color: rgba(155, 155, 155, 0.336);
+    border: 1px solid  rgb(40, 43, 61);
+    font-size: 1.2rem;
+    color: rgb(226, 226, 226);
+}
+
+.main__cont_p{
+    display: flex;
+    flex-wrap: wrap;
+    width: 20.2rem;
+    background-color: rgba(155, 155, 155, 0.336);
+    height: 10rem;
+    border-radius: 5px;
+    border: 1px solid  rgb(40, 43, 61);
+}
+#valueInput{
+    height: 2rem;
+    max-width: 20rem;
+    color: rgb(226, 226, 226);
+    margin-left: 2px;
+    white-space: initial
+    
+}
+/* Container buttons*/
+.button_input_container{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+.button_input{
+    position: relative;
+    height: 3rem;
+    width: 9rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 8px;
+    background: rgba(60, 80, 159, 0.459);
+    background: linear-gradient(0deg, rgba(60, 80, 159, 0.5) rgba(5, 12, 34, 0.438)34,1);
+    border: none;
+    font-size: 1.4rem;
+    color: rgb(141, 166, 187);
+    -webkit-transition-duration: 1s; /* Safari */
+    transition-duration: 1s;
+}
+.button_input-2{
+    font-size: 1.4rem;
+    color: rgb(231, 168, 96);
+    position: relative;
+    height: 3rem;
+    width: 9rem;
+    border-radius: 8px;
+    background: rgba(60, 80, 159, 0.459);
+    background: linear-gradient(0deg, rgba(60, 80, 159, 0.5) rgba(5, 12, 34, 0.438)34,1);
+    border: none;
+    -webkit-transition-duration: 1s; /* Safari */
+    transition-duration: 1s;
+}
+.button_input-2:hover , .button_input:hover{
+    cursor: pointer;
+    color: rgb(240, 248, 255);
+    background: rgba(76, 93, 160, 0.452);
+    background: linear-gradient(0deg, rgba(76, 99, 190, 0.623) 18%, rgba(59, 85, 179, 0.37) 78%);
+     
+}
+.button_{
+    
+    margin-left: 1rem;
+}
+.copiador{
+    position: relative;
+    top: -10rem;
+    left: 23.1rem;
+    width: 9rem;
+    height: 3rem;
+    
+    font-size: 1.4rem;
+    color: rgba(255, 1, 1, 0.815);
+   
+    border-radius: 8px;
+    background: rgba(60, 80, 159, 0.459);
+    background: linear-gradient(0deg, rgba(60, 80, 159, 0.5) rgba(5, 12, 34, 0.438)34,1);
+    border: none;
+    -webkit-transition-duration: 1s; /* Safari */
+    transition-duration: 1s;
+}
+.copiador:hover{
+    cursor: pointer;
+    color: rgb(240, 248, 255);
+    background: rgba(76, 93, 160, 0.452);
+    background: linear-gradient(0deg, rgba(76, 99, 190, 0.623) 18%, rgba(59, 85, 179, 0.37) 78%);
+}
+.p_requerimientos{
+    position: relative;
+    font-size: .6rem;
+    color: aliceblue;
+    top: -3rem;
+}
+.p-creador{
+    position: relative;
+    color: antiquewhite;
+    font-size: 1.7rem;
+}
+.p-creador-span{
+    color: chocolate;
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <section class="main">
+        
+        <div class="main__cont">
+            <div class="container_h1">
+               <h1 class="main__h1">Encriptador <span class="alura_span">Alura</span></h1>
+               
+            </div>
+     
+
+        
+            <div class="main_cont_flex">
+                <div class="container_p">
+                    <div class="main_cont_h1">
+                        <p class="main_cont_ingrese-su-texto">Ingrese El Texto Que Desee Encriptar:</p>
+                        <input type="text" id="input_text" class="input_text" placeholder="Encriptemos!">
+                    </div>
+                    <div>
+                        <p class="main_cont_ingrese-su-texto">El Texto Encriptado Es:</p>
+                    </div>
+                    <div class="main__cont_p">
+                            
+                            <span id="valueInput" class="valueInputCont"></span>
+                        
+                        </div>
+                    <button id="copiador" class="copiador">Copiar</button>
+                    
+                    <p class="p_requerimientos">-Si utilizas letras mayusculas el encriptador te las devolverá en minuscula<br>
+                        - No deben ser utilizados letras con acentos ni caracteres especiales</p>    
+                </div>
+                
+                
+         
+
+
+                <div class="button_input_container">
+                    <button type="button" onclick="inputEncrypter()" class="button_input button_">Encriptar</button>
+                    <button type="button" onclick="desencryp()" class="button_input-2 button_">Desencriptar</button>
+                </div>
+            </div>
+
+        </div>
+        
+            <p class="p-creador">Creado por <sapan class="p-creador-span">Nicolás David Faure</sapan> - Argentina</p>
+        
+    </section>
+
+    <script type="text/javascript" src="/scipt.js">
+        
+    </script>
+</body>
+</html>
